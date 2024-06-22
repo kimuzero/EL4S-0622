@@ -9,8 +9,8 @@ public class score : MonoBehaviour
     [SerializeField]
     Text scoreText;
 
-    private int money;//合計
-    private int addScore;//加算するスコア
+    static private int money; //合計
+    private int addScore; //加算するスコア
 
     // Start is called before the first frame update
     void Start()
